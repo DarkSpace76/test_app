@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:test_app/check_box.dart';
-import 'package:test_app/dash_line.dart';
+import 'package:test_app/component/check_box.dart';
+import 'package:test_app/component/dash_line.dart';
 
 Widget someComponent({required String text, bool checkBoxState = false}) {
   return Row(
